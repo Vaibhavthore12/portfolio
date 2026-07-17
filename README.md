@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Vaibhav Thore — Portfolio
 
-## Getting Started
+A modern, animated portfolio website built with **Next.js**, **Framer Motion**, and **Tailwind CSS**. Featuring a sleek dark theme with glassmorphism effects, smooth page transitions, and a fully responsive design.
 
-First, run the development server:
+🔗 **Live Demo:** [portfolio-azure-omega-52.vercel.app](https://portfolio-azure-omega-52.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Features
+
+- 🎨 **Modern Dark UI** — Glassmorphism cards, gradient accents, and neon glow effects
+- 🌀 **Smooth Animations** — Page transitions and micro-interactions powered by Framer Motion
+- 📱 **Fully Responsive** — Optimized for mobile, tablet, and desktop
+- 📄 **Resume Download** — One-click PDF resume download
+- 📬 **Contact Form** — Integrated with EmailJS for direct messaging
+- ⚡ **Fast & SEO Friendly** — Static generation with Next.js for blazing-fast load times
+- 🧩 **Modular Components** — Clean, reusable component architecture
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| **Framework** | Next.js 16, React 19 |
+| **Styling** | Tailwind CSS 4 |
+| **Animations** | Framer Motion |
+| **Icons** | React Icons |
+| **Email** | EmailJS |
+| **Deployment** | Vercel |
+
+---
+
+## 📁 Project Structure
+
+```
+portfolio/
+├── public/
+│   ├── profile.jpg
+│   └── vaibhav_jan_final85.pdf
+├── src/
+│   ├── app/
+│   │   ├── page.tsx          # Home — Hero section
+│   │   ├── about/page.tsx    # About, Skills, Education
+│   │   ├── projects/page.tsx # Project showcase
+│   │   ├── experience/page.tsx # Work experience
+│   │   ├── contact/page.tsx  # Contact form
+│   │   ├── layout.tsx        # Root layout with Navbar & Footer
+│   │   └── globals.css       # Global styles & animations
+│   └── components/
+│       ├── Navbar.tsx        # Navigation bar
+│       ├── Footer.tsx        # Footer
+│       ├── FloatingIcons.tsx  # Animated background icons
+│       ├── PageTransition.tsx # Page transition wrapper
+│       ├── ParallaxCard.tsx   # 3D parallax card effect
+│       └── SectionHeading.tsx # Reusable section header
+├── next.config.ts
+├── package.json
+└── tsconfig.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+- Node.js 18+
+- npm or yarn
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Clone the repository
+git clone https://github.com/Vaibhavthore12/portfolio.git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Navigate to the project
+cd portfolio
 
-## Deploy on Vercel
+# Install dependencies
+npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Start the development server
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 📬 Contact
+
+- **Email:** [vaibhavthore12@gmail.com](mailto:vaibhavthore12@gmail.com)
+- **GitHub:** [@Vaibhavthore12](https://github.com/Vaibhavthore12)
+- **Portfolio:** [portfolio-azure-omega-52.vercel.app](https://portfolio-azure-omega-52.vercel.app)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<p align="center">
+  Built with ❤️ by <strong>Vaibhav Thore</strong>
+</p>
